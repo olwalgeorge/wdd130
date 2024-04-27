@@ -8,7 +8,7 @@ main img {
 }
 
 p {
-    padding: 3px;
+    padding: 0;
 }
 
 aside {
@@ -31,4 +31,21 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
+/* Added these */
+nav {
+    background-color: #444;
+    padding: 0 1rem;
+}
 
+nav a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0;
+    padding: 1rem;
+}
