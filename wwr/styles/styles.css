@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
-    --primary-color: #0077be;
-    --secondary-color: #004488;
-    --accent1-color: #ffcb05;
-    --accent2-color: #ff6600;
+    --primary-color: #232ed1;
+    --secondary-color: #f4e8c1;
+    --accent1-color: #e3d7ff;
+    --accent2-color: #65def1;
     --heading-font: 'Noto Serif';
     --paragraph-font: sans-serif;
     --nav-background-color: #444;
@@ -12,6 +12,7 @@
     --nav-hover-link-color: #fff;
     --nav-hover-background-color: #666;
 }
+
 
 body {
     font-family: var(--paragraph-font);
@@ -26,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
   padding: 20px;
-  background-color: var(--nav-background-color);
+  background-color: var(--accent1-color);
 }
 
 p {
