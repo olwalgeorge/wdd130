@@ -79,7 +79,7 @@ background-color: var(--nav-hover-background-color);
 
 .hero article {
     position: absolute;
-    top: 50%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 20%;
@@ -95,9 +95,10 @@ background-color: var(--nav-hover-background-color);
   }
 
 .hero article img {
+    
     float: right;
-    width: 100px;
-    height: auto;
+    width: auto;
+    height: 100%;
   }
 
    
