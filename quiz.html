@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 130, HTML and CSS Quiz Forms.">
+    <meta name="author" content="George Olwal">
+    <title>HTML and CSS Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">        
+</head>
+<body>
+    <h1>&#x2611; HTML and CSS Quiz</h1>
+    <form action="submit_quiz.php" method="post">
+        <label for="q1">What is the most commonly used HTML element?</label>
+        <input type="text" id="q1" name="q1" required>
+
+        <label for="q2">What is the CSS property that is used to change the background color of an element?</label>
+        <textarea id="q2" name="q2" rows="4" required></textarea>
+
+        <label for="q3">What is the correct HTML structure for a link?</label>
+        <select id="q3" name="q3" required>
+            <option value="" selected disabled>Choose One ...</option>
+            <option value="a href">a href</option>
+            <option value="link">link</option>
+            <option value="Hyperlink">Hyperlink</option>
+        </select>
+
+        <label for="q4">What is the data type of this number input?</label><br>
+        <input type="number" id="q4" name="q4" required>
+        
+        <button type="submit">Submit Quiz</button>        
+    </form>
+</body>
+</html>
+
+
