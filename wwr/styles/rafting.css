@@ -339,7 +339,7 @@ footer p {
 }
 
 .contact-form label[for="message"],
-.contact-form label[for="message-purpose"],
+.contact-form label[for="general-inquiry"],
 .contact-form label[for="subscribe-message"] {
     margin-top: 10px;
 }
