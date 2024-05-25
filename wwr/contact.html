@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Georgre Olwal, WDD 130, Contact Us Rafting Site - Get to know us and what we do at Wild Water Rafting.">
+    <meta name="author" content="George Olwal">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <title>Splash White Water Rafting | Contact Us</title>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Rafting Site Logo">
+        <h1>Splash White Water Rafting</h1>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Contact Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contact-main">
+        <section class="company-info">
+            <h2>Company Information</h2>
+            <p>Address: 123 Main St<br>
+               Phone Number(s): 123-456-7890<br>
+               Email: info@splashwhitewaterrafting.com</p>            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.1223666612956!2d-111.8784748846599!3d33.42055398039121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c56a83937d3b%3A0x79811762291c063e!2sSalt%20Lake%20City%2C%20UT!5e0!3m2!1sen!2sus!4v1682784783627!5m2!1sen!2sus" style="border:0" allowfullscreen></iframe>
+        </section>
+
+        <section class="employee-profiles">
+            <h2>Employee Profiles</h2>
+            <div class="profile">
+                <img src="images/employee1.jpg" alt="Employee 1">
+                <h3>George Olwal</h3>
+                <p>CEO</p>
+            </div>
+            <div class="profile">
+                <img src="images/employee2.jpg" alt="Employee 2">
+                <h3>Elsa Majimbo</h3>
+                <p>CFO</p>
+            </div>
+            <div class="profile">
+                <img src="images/emlpoyee3.jpeg" alt="Employee 3">
+                <h3>John Smith</h3>
+                <p>Operation Manager</p>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Contact Form</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message-purpose">Message Purpose:</label>
+                <div>
+                    <input type="radio" id="general-inquiry" name="message-purpose" value="general-inquiry">
+                    <label for="general-inquiry">General Inquiry</label>
+                </div>
+                <div>
+                    <input type="radio" id="reservation-question" name="message-purpose" value="reservation-question">
+                    <label for="reservation-question">Reservation Question</label>
+                </div>
+                <div>
+                    <input type="radio" id="website-suggestion" name="message-purpose" value="website-suggestion">
+                    <label for="website-suggestion">Website Suggestion</label>
+                </div>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <label for="subscribe-message">Subscribe to Newsletter:</label>
+                <div>
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                </div>
+                <button type="submit">Submit Message</button>
+            </form>
+        </section> 
+    </main>
+    <footer>
+        <p>&copy; 2024 Splash White Water Rafting - George Olwal</p>
+        <nav>
+            <ul class="sociallinks">
+                <li>
+                    <a href="https://facebook.com" target="_blank">
+                        <img src="images/facebook.webp" alt="Facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com" target="_blank">
+                        <img src="images/twitter.webp" alt="Twitter">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://instagram.com" target="_blank">
+                        <img src="images/instagram.webp" alt="Instagram">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
+
