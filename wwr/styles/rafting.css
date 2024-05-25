@@ -248,7 +248,7 @@ footer p {
 
 /* General Styles */
 .contact-main {
-    display: grid;
+    display: grid;    
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     max-width: 1200px;
     max-height: 1300px;
@@ -276,7 +276,7 @@ footer p {
 .profile {
     text-align: center;
     margin: 10px;
-    padding: 25px;
+    padding: 25px;    
     background-color: #f5f5f5;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -285,11 +285,12 @@ footer p {
 
 .profile:hover {
     transform: translateY(-8px);
+   
 }
 
 .profile img {
-    width: 160px;
-    height: 160px;
+    width: 160px;   
+    height: 160px;   
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 10px;
@@ -344,7 +345,7 @@ footer p {
 }
 
 .contact-form input:not([type="radio"], [type="checkbox"]),
-textarea {
+.contact-form textarea {
     width: calc(100% - 20px);
     padding: 10px;
     border: 1px solid #ccc;
@@ -366,41 +367,6 @@ textarea {
 .contact-form button:hover {
     background-color: #4136b8af;
 }
-
-form {
-    /* Center the form on the page */
-    margin: 0 auto;
-    width: 400px;
-    padding: 1em;
-    border: 1px solid #ccc;
-    border-radius: 1em;
-}   
-
-label {
-    display: inline-block;
-    width: 90px;
-    text-align: right;
-}
-
-input,
-textarea {
-    font: 1em sans-serif;
-    width: 300px;
-    box-sizing: border-box;
-    border: 1px solid #999;
-}
-
-input:focus,
-textarea:focus {
-    border-color: #000;
-}
-
-.button {
-    
-    padding-left: 90px;
-    margin-left: 0.5em;
-}
-
 
 @media (min-width: 768px) {
     .contact-main {
