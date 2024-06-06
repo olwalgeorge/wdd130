@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="George Olwal, WDD 130, Trips - Explore our exciting rafting trips and book your adventure today!">
+    <meta name="author" content="George Olwal">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <title>Splash White Water Rafting | Trips</title>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Rafting Site Logo">
+        <h1>Splash White Water Rafting</h1>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="trips-main">
+        <section id="services">
+            <h2>Our Trips</h2>
+            <div class="service">
+                <img src="images/river1.jpg" alt="River 1">
+                <h3>River 1</h3>
+                <p>Experience the thrill of navigating through the rapids of River 1. This trip is perfect for beginners and offers stunning views.</p>
+                <p>Highlights include: calm waters, beautiful scenery, and a chance to see local wildlife.</p>
+            </div>
+            <div class="service">
+                <img src="images/camping.jpg" alt="Camping">
+                <h3>Our Camping</h3>
+                <p>Enjoy a night under the stars with our camping trips. We provide all the necessary gear and a guide to ensure a safe and enjoyable experience.</p>
+                <p>Highlights include: campfire stories, guided hikes, and a peaceful retreat in nature.</p>
+            </div>
+            <div class="service">
+                <img src="images/rapids.jpg" alt="Rapids">
+                <h3>Our Rapids</h3>
+                <p>For the adventure seekers, our rapids trip offers an adrenaline-pumping experience. Navigate through challenging rapids with our expert guides.</p>
+                <p>Highlights include: intense rapids, expert guidance, and an unforgettable adventure.</p>
+            </div>
+        </section>
+
+        <section id="booking-form">
+            <h2>Book Your Trip</h2>
+            <form action="submit_booking.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="trip">Select Trip:</label>
+                <select id="trip" name="trip" required>
+                    <option value="" disabled selected>Select your trip</option>
+                    <option value="river1">River 1</option>
+                    <option value="camping">Camping</option>
+                    <option value="rapids">Rapids</option>
+                </select>
+
+                <label for="date">Preferred Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="message">Additional Message:</label>
+                <textarea id="message" name="message"></textarea>
+
+                <button type="submit" class="btn">Book Now</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Splash White Water Rafting - George Olwal</p>
+        <nav>
+            <ul class="sociallinks">
+                <li>
+                    <a href="https://facebook.com" target="_blank">
+                        <img src="images/facebook.webp" alt="Facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com" target="_blank">
+                        <img src="images/twitter.webp" alt="Twitter">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://instagram.com" target="_blank">
+                        <img src="images/instagram.webp" alt="Instagram">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

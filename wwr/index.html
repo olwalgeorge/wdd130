@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Georgre Olwal, WDD 130, About Rafting Site - Get to know us and what we do at Wild Water Rafting.">
+    <meta name="author" content="George Olwal">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <style>
+        #services {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 columns */
+            grid-gap: 10px;
+        }
+        .service {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+    <title>Splash White Water Rafting | Home</title>
+    
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Rafting Site Logo">
+        <h1>Splash White Water Rafting</h1>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="home-main">
+        <section id="hero">
+            <div class="hero-content">
+                <img src="images/hero-image.jpg" alt="Rafting on a beautiful river">
+                <div class="hero-text">
+                    <h2>Welcome to Splash White Water Rafting</h2>
+                    <p>Explore the thrilling world of rafting with us!</p>
+                    <a href="trips.html" class="btn">Book a Trip</a>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="services">
+            <div class="service">
+                <img src="images/river1.jpg" alt="River 1">
+                <h3>River 1</h3>
+            </div>
+            <div class="service">
+                <img src="images/camping.jpg" alt="Camping">
+                <h3>Our Camping</h3>
+            </div>
+            <div class="service">
+                <img src="images/rapids.jpg" alt="Rapids">
+                <h3>Our Rapids</h3>
+            </div>
+        </section>
+        <section id="contact-us-home">
+            <h2>Contact Us</h2>
+            <div class="contact-box">
+                <img src="images/contact-us.webp" alt="Contact Us Image">
+                <h3>Have a question?</h3>
+                <p>We are here to help. Contact us at <a href="mailto:info@splashwhitewaterrafting.com">info@splashwhitewaterrafting.com</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Splash White Water Rafting - George Olwal</p>
+        <nav>
+            <ul class="sociallinks">
+                <li>
+                    <a href="https://facebook.com" target="_blank">
+                        <img src="images/facebook.webp" alt="Facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com" target="_blank">
+                        <img src="images/twitter.webp" alt="Twitter">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://instagram.com" target="_blank">
+                        <img src="images/instagram.webp" alt="Instagram">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
+
+
